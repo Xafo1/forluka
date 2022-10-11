@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none ;
+    text-decoration: none; 
+    box-sizing: border-box;
+
+}
+
+header{
+    height: 150px; 
+    width: 100%;
+    background-color: #C4C4C4;
+
+}
+.navbarlinks a{
+    color: black;
+    display :  inline-block;
+    margin-top: 64px ;
+    margin-left: 38px;
+
+}
+.slider{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color: #3D3D3D;
+    align-items: center;
+    justify-content: center;
+}
+.slider > h3 { 
+    color: white;
+}
+/*box start*/
+.boxcont { 
+    display: flex;
+    padding: 34px 33px;
+    margin-bottom: 50px;
+}
+.box1,.box2,.box3 { 
+    width: 33.3%;
+    height: 348px;
+    
+    
+}
+.box1 { 
+    background-color: #FF9900;
+}
+.box2 { 
+    background-color: #FFC700;
+}
+.box3 { 
+    background-color: #FFE600;
+}
+.imageplace { 
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+.box1 > .imageplace > img { 
+    max-width: 100%;
+}
+.box2 > .imageplace > img { 
+    max-width: 100%;
+}
+.box3 > .imageplace > img { 
+    max-width: 100%;
+}
+h4 { 
+  font-size: 18px;
+  padding: 13px 11px;
+}
+.box1 > p { 
+    font-size: 12px;
+    padding: 0 11px;
+
+}
+.box2 > p { 
+    font-size: 12px;
+    padding: 0 11px;
+    
+}
+.box3 > p { 
+    font-size: 12px;
+    padding: 0 11px;
+}
+h6 { 
+    padding: 10px;
+    color: gray;
+}
+
+/*box end */
+
+/*footer*/
+footer > p { 
+    margin-left: 34px;
+    margin-bottom: 50px;
+    font-size: 12px;
+}
+
+
+/*footer end*/
